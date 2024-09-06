@@ -1,0 +1,207 @@
+.container {
+  background-color: #F1EFE4;
+  display: block;
+  justify-content: center;
+  align-items: center;
+  height: 95vh;
+  margin: 10px;
+}
+
+.wrapper {
+  /* align-content: stretch;
+  align-items: center;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+  justify-content: space-evenly;
+  margin: 5% 25% 0 25%;
+  padding-top: 100px;
+  width: 50%; */
+
+  align-content: stretch;
+  align-items: center;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: space-evenly;
+  margin: 5px 0px 0px 0px;
+  padding: 100px ;
+  max-width: 100vw;
+}
+
+.userInput1,
+.input1 {
+  align-content: stretch;
+  align-items: center;
+  border: 1px solid grey;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  text-align: center;
+  width: 50%;
+}
+
+select {
+  align-content: stretch;
+  align-items: center;
+  border: 1px solid grey;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  text-align-last:center;
+  padding-right: 20px;
+  width: 50%;
+}
+
+
+.input2 {
+  align-content: stretch;
+  align-items: center;
+  border: 1px solid grey;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  text-align: center;
+  width: 50%;
+} 
+
+.button-div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 50%;
+  margin: 0 5% 0 25%;
+}
+
+.results{
+  align-content: stretch;
+  align-items: center;
+  color: #F2BB05;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  font-size: 20px;
+  justify-content: space-evenly;
+}
+
+
+button {
+  align-content: stretch;
+  align-items: center;
+  color: #F2BB05;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  font-size: 15px;
+  height: 40px;
+  justify-content: space-evenly;
+  margin: 10% 0;
+  /* width: 50%; */
+}
+
+span,
+b, i {
+  align-content: stretch;
+  align-items: flex-start;
+  color: #F2BB05;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+.operation-results {
+  align-content: stretch;
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+/* Small devices (tablets, 200px and up) */
+@media (min-width: 200px) {
+  .container {
+    background-color: #124E78;
+  }
+  button,
+  .input1,
+  .input2,
+  select {
+    background-color: #F0F0C9;
+    color: #F2BB05;
+    height: 25px;
+    font-size: 10px;
+    /* width: 50%; */
+  }
+  button {
+    font-size: 15px;
+    height: 50px;
+    width: 100%;
+  }
+}
+
+
+/* Small devices (tablets, 768px and up) */
+@media (min-width: 768px) { 
+  .container {
+    background-color: #124E78;
+  }
+  button,
+  .input1,
+  .input2,
+  select {
+    background-color: #F0F0C9;
+    color: #F2BB05;
+    height: 30px;
+  }
+  button {
+    height: 50px;
+    width: 100%;
+  }
+}
+
+/* Medium devices (desktops, 992px and up) */
+@media (min-width: 992px) { 
+  .container {
+    background-color: #124E78;
+  }
+  button,
+  .input1,
+  .input2,
+  select {
+    background-color: #F0F0C9;
+    color: #F2BB05;
+    height: 35px;
+  }
+  button {
+    height: 50px;
+    width: 100%;
+  }
+}
+
+/* Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) { 
+  .container {
+    background-color: #124E78;
+  }
+  button,
+  .input1,
+  .input2,
+  select {
+    background-color: #F0F0C9;
+    color: #F2BB05;
+    height: 40px;
+  }
+  button {
+    height: 50px;
+    /* width: 100%; */
+  }
+}
